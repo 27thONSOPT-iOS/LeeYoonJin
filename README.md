@@ -7,7 +7,7 @@
 
 **1️⃣주차 과제**
 
-<img src="./img/1-1.png" alt="2-1" style="zoom:30%;" width = "300px"/> <img src="./img/1-2.png" alt="2-1" style="zoom:30%;" width = "300px"/> <img src="./img/1-3.png" alt="2-1" style="zoom:30%;" width = "300px"/><img src="./img/1-4.png" alt="2-1" style="zoom:30%;" width = "300px"/>
+<img src="./img/1-1.png" alt="2-1" style="zoom:20%;" width = "300px"/> <img src="./img/1-2.png" alt="2-1" style="zoom:20%;" width = "300px"/> <img src="./img/1-3.png" alt="2-1" style="zoom:20%;" width = "300px"/><img src="./img/1-4.png" alt="2-1" style="zoom:20%;" width = "300px"/>
 
 * push, present, dismiss 뷰 전환 실습
 
