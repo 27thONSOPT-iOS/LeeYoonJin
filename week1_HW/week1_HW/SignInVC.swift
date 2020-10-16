@@ -26,11 +26,6 @@ class SignInVC: UIViewController {
 
     @IBAction func loginBtnTouched(_ sender: Any) {
         
-//        guard let dvc = self.storyboard?.instantiateViewController(identifier: "MainVC") as? MainVC else{
-//            return
-//        }
-//        dvc.partName = self.partTextField.text
-//        dvc.memberName = self.nameTextField.text
         let ad = UIApplication.shared.delegate as? AppDelegate
         ad?.partName = self.partTextField.text
         ad?.memberName = "\(self.nameTextField.text ?? "")님 안녕하세요🤗"
