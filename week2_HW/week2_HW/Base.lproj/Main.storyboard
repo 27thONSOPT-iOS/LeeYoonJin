@@ -775,7 +775,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="28c-l5-qvQ">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="soptLogo" id="aH8-iT-8I2"/>
-                        <barButtonItem key="rightBarButtonItem" title="프로필 작성하기" id="2Kg-dm-TIY">
+                        <barButtonItem key="rightBarButtonItem" title="프로필 작성하기" image="profileBtn" id="2Kg-dm-TIY">
                             <color key="tintColor" systemColor="systemYellowColor"/>
                         </barButtonItem>
                     </navigationItem>
@@ -783,6 +783,7 @@
                     <connections>
                         <outlet property="listScrollView" destination="gTw-ub-Rkm" id="KvL-dD-yPO"/>
                         <outlet property="moveTopBtn" destination="V1v-ev-xYu" id="G9y-C3-KrV"/>
+                        <outlet property="rightBarButton" destination="2Kg-dm-TIY" id="zGH-4b-Rif"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -819,6 +820,7 @@
         <image name="minju" width="150" height="150"/>
         <image name="nayeon" width="150" height="150"/>
         <image name="peace" width="150" height="150"/>
+        <image name="profileBtn" width="132" height="32"/>
         <image name="saeeun" width="150" height="150"/>
         <image name="soptLogo" width="62" height="23"/>
         <image name="wool" width="150" height="150"/>

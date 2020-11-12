@@ -10,8 +10,16 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var rightBarButton: UIBarButtonItem!
+    
     @IBOutlet weak var listScrollView: UIScrollView!
     @IBOutlet weak var moveTopBtn: UIButton!
+    
+    lazy var rightButton: UIBarButtonItem = {
+        let button = UIBarButtonItem(title: "123", image: UIImage(), primaryAction: nil)
+        
+        return button
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +27,9 @@ class ViewController: UIViewController {
         moveTopBtn.isHidden = true
         listScrollView.delegate = self
         moveTopBtn.layer.cornerRadius = moveTopBtn.frame.width/2
+        
+        rightBarButton = rightButton
+        
     }
    
     @IBAction func moveTop(_ sender: Any) {
