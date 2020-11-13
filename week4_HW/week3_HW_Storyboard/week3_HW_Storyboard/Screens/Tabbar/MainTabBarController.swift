@@ -28,7 +28,7 @@ class MainTabBarController: UITabBarController {
         IntroVC.tabBarItem.title = "Home"
         IntroVC.tabBarItem.image = UIImage(systemName: "house")
         IntroVC.tabBarItem.selectedImage = UIImage(systemName: "house.fill")
-        ViewController.tabBarItem.title = "Profile"
+        ViewController.tabBarItem.title = "SOPT+WORKING"
         ViewController.tabBarItem.image = UIImage(systemName: "person")
         ViewController.tabBarItem.selectedImage = UIImage(systemName: "person.fill")
         setViewControllers([IntroVC, ViewController], animated: true)

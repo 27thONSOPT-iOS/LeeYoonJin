@@ -74,10 +74,15 @@ extension ViewController: UICollectionViewDataSource{
 extension ViewController {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         //print(partCV.contentOffset.y)
-        if partCV.contentOffset.y > 200 {
-            NaviView.isHidden = true
-        } else {
-            NaviView.isHidden = false
-        }
+//        if partCV.contentOffset.y > 200 {
+//            NaviView.isHidden = true
+//        } else {
+//            NaviView.isHidden = false
+//        }
+        NaviView.isHidden = true
+    }
+    
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        NaviView.isHidden = false
     }
 }
